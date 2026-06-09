@@ -1,0 +1,9 @@
+#!/bin/bash
+
+Name="Saurabh"
+Age="24"
+Hight="5.10"
+
+echo "Name: $Name"
+echo "Age: $Age"
+echo "Hight: $Hight"
