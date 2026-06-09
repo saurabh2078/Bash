@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+if ping -n 1 google.com > /dev/null 2>&1
+then
+	echo " $(date): Internet is working" >> error.txt
+else
+	echo "$(date): Internet connection failed" >> error.txt
+fi
