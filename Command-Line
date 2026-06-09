@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Enter first number: $1"
+echo "Enter second number: $2"
